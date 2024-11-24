@@ -1,0 +1,68 @@
+[0m23:15:19.780873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002275D4BFE60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002275D4BCD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002275ED39E20>]}
+
+
+============================== 23:15:19.786874 | b3566aa7-b5e6-4b99-817a-3335b72b3e05 ==============================
+[0m23:15:19.786874 [info ] [MainThread]: Running with dbt=1.8.9
+[0m23:15:19.786874 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Acer\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:15:19.796891 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/Acer/.dbt')}
+[0m23:15:19.797926 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m23:18:41.360284 [debug] [MainThread]: Starter project path: D:\dbimbing\dbt\venv\Lib\site-packages\dbt\include\starter_project
+[0m23:18:41.413183 [info ] [MainThread]: 
+Your new dbt project "dbimbing" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:18:41.419511 [info ] [MainThread]: Setting up your profile.
+[0m23:21:38.554828 [info ] [MainThread]: Profile dbimbing written to C:\Users\Acer\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:21:38.562837 [debug] [MainThread]: Command `dbt init` succeeded at 23:21:38.561838 after 378.95 seconds
+[0m23:21:38.562837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002275E406270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002275D4EAE70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002275EF47530>]}
+[0m23:21:38.563836 [debug] [MainThread]: Flushing usage events
+[0m23:41:15.192454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D49207140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D45745730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D48FC2060>]}
+
+
+============================== 23:41:15.199463 | cd261da6-12c1-4d8c-96ae-ada9ee7fd91a ==============================
+[0m23:41:15.199463 [info ] [MainThread]: Running with dbt=1.8.9
+[0m23:41:15.200462 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Acer\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:41:53.702787 [info ] [MainThread]: A project called dbimbing already exists here.
+[0m23:41:53.704353 [debug] [MainThread]: Command `dbt init` succeeded at 23:41:53.704353 after 38.77 seconds
+[0m23:41:53.706350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D49770380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D4879D550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D49293FB0>]}
+[0m23:41:53.707351 [debug] [MainThread]: Flushing usage events
+[0m23:42:01.897975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D46CAE6D80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D46D0AA840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D46BD14950>]}
+
+
+============================== 23:42:01.901023 | e0ac04cb-efa1-4b10-a6e0-f9da1f9a7ff9 ==============================
+[0m23:42:01.901023 [info ] [MainThread]: Running with dbt=1.8.9
+[0m23:42:01.902023 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Acer\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m23:42:05.046038 [debug] [MainThread]: Starter project path: D:\dbimbing\dbt\venv\Lib\site-packages\dbt\include\starter_project
+[0m23:42:05.069668 [info ] [MainThread]: 
+Your new dbt project "dibimbing" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:42:05.070685 [info ] [MainThread]: Setting up your profile.
+[0m23:45:15.640314 [info ] [MainThread]: Profile dibimbing written to C:\Users\Acer\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:45:15.644311 [debug] [MainThread]: Command `dbt init` succeeded at 23:45:15.644311 after 193.90 seconds
+[0m23:45:15.645955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D46C58BAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D46BD14950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D46DDB41D0>]}
+[0m23:45:15.646855 [debug] [MainThread]: Flushing usage events
